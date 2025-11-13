@@ -1,7 +1,7 @@
 def sum_even_odd(numbers):
     even_sum = sum(n for n in numbers if n % 2 == 0)
     odd_sum = sum(n for n in numbers if n % 2 != 0)
-    return even_sum, odd_sum
+    return even_sum, odd_su
 
 if __name__ == "__main__":
     nums = [3, 7, 10, 14, 21, 28]
